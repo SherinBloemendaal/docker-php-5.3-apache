@@ -97,6 +97,8 @@ RUN buildDeps=" \
             --with-openssl=/usr/local/ssl \
             --enable-soap \
             --with-png \
+            --with-freetype-dir=/usr/include/ \
+            --with-jpeg-dir=/usr/include/ \
             --with-gd \
             --with-readline \
             --with-recode \
